@@ -1,0 +1,166 @@
+body {
+      font-family: sans-serif;
+      background-color: rgb(31, 28, 28);
+    }
+    
+    h1,h2,h3{
+      text-align:center;
+    }
+    p {text-indent: 1em; padding: 0 0.5em;}
+    h3{color: white;}
+
+    header, footer {
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      margin: 1%;
+      padding: 0.5%;
+      border-radius: 0.5em;
+      
+    }
+
+.center {
+    margin: auto;
+}
+
+.splash {
+    margin-top: 12%;
+    color: white;
+    font-size: 60px;
+}
+
+
+#wrapper {
+      width: 90%;
+      height: 90%;
+      margin: 0 auto;
+      padding: 1%;
+      min-width: 600px;
+      min-height: 600px;
+      max-width: 1920px;
+    }
+    #main > article {
+        -webkit-box-flex: 0 1 65%;
+        -moz-box-flex: 0 1 65%;
+        -webkit-flex: 0 1 65%;
+        -ms-flex: 0 1 65%;
+        flex: 0 1 65%;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+        padding: 0.5%;
+        border-radius: 0.5em;
+    }
+    #main > nav {
+        outline: 1px solid black;
+        -webkit-box-flex: 0 1 17%;
+        -moz-box-flex: 0 1 17%;
+        -webkit-flex: 0 1 17%;
+        -ms-flex: 0 1 17%;
+        flex: 0 1 17%;
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        padding: 0.5%;
+        border-radius: 0.5em;
+    }
+    #main > aside {
+        outline: 1px solid black;
+        -webkit-box-flex: 0 1 17%;
+        -moz-box-flex: 0 1 17%;
+        -webkit-flex: 0 1 17%;
+        -ms-flex: 0 1 17%;
+        flex: 0 1 17%;
+        -webkit-box-ordinal-group: 3;
+        -moz-box-ordinal-group: 3;
+        -ms-flex-order: 3;
+        -webkit-order: 3;
+        order: 3;
+        padding: 0.5%;
+        border-radius: 0.5em;
+    }
+    #main h3 {padding: 0 0.5em;}
+    
+    #main {
+      display: -webkit-box; /* old Safar, iOS, Android */
+      display: -moz-box; /* old Firefox */
+      display: -ms-flexbox; /* IE 10+ */
+      display: -webkit-flex; /* Chrome and Safari 6.1 + 8? */
+      display: flex; /* IE 11, Chrome 29+, Firefox 22+ */
+    }
+
+
+    #bg {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 1%;
+    min-width: 600px;
+    min-height: 600px;
+    max-width: 1920px;
+
+
+    background-image: url(../../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    }
+
+    .mainMenuButton{
+      margin: 0 auto;display: block;
+    }
+
+.uiButton{
+    /* margin: 0 auto; */
+    width:142px;
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    color: #ffffff !important;
+    cursor: pointer;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.75rem;
+    padding: 0 1.25rem 0 1.35rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+    opacity: 75%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: gray;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+        
